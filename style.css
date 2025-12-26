@@ -25,4 +25,35 @@
     color: black;
     margin-left: 30px;
     font-weight: 500;
+    
+}
+.nav-links a:hover {
+   color: #60a5fa;
+}
+
+.content {
+    display: flex;
+    justify-content: start; 
+    gap: 40px;
+    margin: 70px;
+}
+.container {
+   background-color: #0b1c2d;
+    border: 1px solid #1e3a5f;
+    width: 250px;
+    height: 300px;
+    border-radius: 12px;
+    box-shadow:
+        0 15px 40px rgba(0,0,0,0.7),
+        0 0 25px rgba(59,130,246,0.35);
+      
+}
+
+.text {
+    max-width: 500px;
+    color: #dbeafe;
+    line-height: 1.6;
+}
+.text h1{
+    color: #1e3a5f;
 }
